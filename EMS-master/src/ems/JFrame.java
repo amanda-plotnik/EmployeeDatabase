@@ -71,22 +71,17 @@ public class JFrame extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         searchButton = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
         viewButton = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
         parentPanel = new javax.swing.JPanel();
         searchPanel = new javax.swing.JPanel();
         infoPanel = new javax.swing.JPanel();
         fNInfoField = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
-        jSeparator10 = new javax.swing.JSeparator();
         lNInfoField = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
-        jSeparator11 = new javax.swing.JSeparator();
         jLabel18 = new javax.swing.JLabel();
         deductInfoField = new javax.swing.JTextField();
-        jSeparator12 = new javax.swing.JSeparator();
         maleInfoRadioButton = new javax.swing.JRadioButton();
         femaleInfoRadioButton = new javax.swing.JRadioButton();
         otherInfoRadioButton = new javax.swing.JRadioButton();
@@ -99,15 +94,11 @@ public class JFrame extends javax.swing.JFrame {
         fullTimeInfoRadioButton = new javax.swing.JRadioButton();
         jLabel28 = new javax.swing.JLabel();
         hourlyWageInfoField = new javax.swing.JTextField();
-        jSeparator14 = new javax.swing.JSeparator();
         jLabel29 = new javax.swing.JLabel();
         hoursPerWeekInfoField = new javax.swing.JTextField();
-        jSeparator15 = new javax.swing.JSeparator();
-        jSeparator17 = new javax.swing.JSeparator();
         jLabel30 = new javax.swing.JLabel();
         weeksPerYearInfoField = new javax.swing.JTextField();
         yearlySalaryInfoField = new javax.swing.JTextField();
-        jSeparator19 = new javax.swing.JSeparator();
         jLabel31 = new javax.swing.JLabel();
         searchChoiceParent = new javax.swing.JPanel();
         preEdit = new javax.swing.JPanel();
@@ -137,9 +128,9 @@ public class JFrame extends javax.swing.JFrame {
         jSeparator9 = new javax.swing.JSeparator();
         viewPanel = new javax.swing.JPanel();
         View = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        title = new javax.swing.JLabel();
         addPanel = new javax.swing.JPanel();
         fNField = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
@@ -167,7 +158,6 @@ public class JFrame extends javax.swing.JFrame {
         welcomePanel = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -193,35 +183,29 @@ public class JFrame extends javax.swing.JFrame {
             }
         });
 
-        sidePanel.setBackground(new java.awt.Color(100, 181, 246));
+        sidePanel.setBackground(new java.awt.Color(153, 0, 102));
 
-        jLabel7.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Courier New", 0, 24)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("<html>Employee<br>Management<br>System</html>");
 
-        addButton.setBackground(new java.awt.Color(100, 181, 246));
+        addButton.setBackground(new java.awt.Color(153, 0, 102));
         addButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 addButtonMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                addButtonMouseExited(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                addButtonMouseEntered(evt);
-            }
         });
 
-        jLabel8.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Courier New", 1, 24)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("+  ADD");
+        jLabel8.setText("ADD");
 
         javax.swing.GroupLayout addButtonLayout = new javax.swing.GroupLayout(addButton);
         addButton.setLayout(addButtonLayout);
         addButtonLayout.setHorizontalGroup(
             addButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(addButtonLayout.createSequentialGroup()
-                .addGap(26, 26, 26)
+                .addGap(40, 40, 40)
                 .addComponent(jLabel8)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -230,84 +214,54 @@ public class JFrame extends javax.swing.JFrame {
             .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
         );
 
-        searchButton.setBackground(new java.awt.Color(100, 181, 246));
+        searchButton.setBackground(new java.awt.Color(153, 0, 102));
         searchButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 searchButtonMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                searchButtonMouseExited(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                searchButtonMouseEntered(evt);
-            }
         });
 
-        jLabel9.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Courier New", 1, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("SEARCH");
-
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
 
         javax.swing.GroupLayout searchButtonLayout = new javax.swing.GroupLayout(searchButton);
         searchButton.setLayout(searchButtonLayout);
         searchButtonLayout.setHorizontalGroup(
             searchButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, searchButtonLayout.createSequentialGroup()
-                .addGap(25, 25, 25)
-                .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addGroup(searchButtonLayout.createSequentialGroup()
+                .addGap(40, 40, 40)
                 .addComponent(jLabel9)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         searchButtonLayout.setVerticalGroup(
             searchButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, searchButtonLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(searchButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 35, Short.MAX_VALUE))
-                .addContainerGap())
+            .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 35, Short.MAX_VALUE)
         );
 
-        viewButton.setBackground(new java.awt.Color(100, 181, 246));
+        viewButton.setBackground(new java.awt.Color(153, 0, 102));
         viewButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 viewButtonMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                viewButtonMouseExited(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                viewButtonMouseEntered(evt);
-            }
         });
 
-        jLabel14.setFont(new java.awt.Font("Lucida Grande", 0, 24)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Courier New", 1, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("VIEW");
-
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/eye.png"))); // NOI18N
 
         javax.swing.GroupLayout viewButtonLayout = new javax.swing.GroupLayout(viewButton);
         viewButton.setLayout(viewButtonLayout);
         viewButtonLayout.setHorizontalGroup(
             viewButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(viewButtonLayout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(jLabel27)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(40, 40, 40)
                 .addComponent(jLabel14)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         viewButtonLayout.setVerticalGroup(
             viewButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(viewButtonLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(viewButtonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+            .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, 39, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout sidePanelLayout = new javax.swing.GroupLayout(sidePanel);
@@ -523,7 +477,7 @@ public class JFrame extends javax.swing.JFrame {
                 .addComponent(editButton, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(removeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(153, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         preEditLayout.setVerticalGroup(
             preEditLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -562,7 +516,7 @@ public class JFrame extends javax.swing.JFrame {
                 .addComponent(cancelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(saveButton, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(153, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         duringEditLayout.setVerticalGroup(
             duringEditLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -580,151 +534,99 @@ public class JFrame extends javax.swing.JFrame {
         infoPanel.setLayout(infoPanelLayout);
         infoPanelLayout.setHorizontalGroup(
             infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(infoPanelLayout.createSequentialGroup()
-                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addComponent(jLabel16)
-                                .addGap(12, 12, 12)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(lNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addComponent(jLabel18)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(deductInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addComponent(jLabel15)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(fNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(116, 116, 116)
-                        .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(8, 8, 8)
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(missInfoRadioButton)
-                            .addComponent(brampInfoRadioButton)
-                            .addComponent(torontoInfoRadioButton)))
-                    .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel19)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addComponent(maleInfoRadioButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel28)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(hourlyWageInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jSeparator14, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jSeparator17, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(weeksPerYearInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(yearlySalaryInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jSeparator19, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(femaleInfoRadioButton)
-                                    .addComponent(otherInfoRadioButton)
-                                    .addGroup(infoPanelLayout.createSequentialGroup()
-                                        .addGap(1, 1, 1)
-                                        .addComponent(fullTimeInfoRadioButton))
-                                    .addComponent(partTimeInfoRadioButton))
-                                .addGap(82, 82, 82)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jLabel31)
-                                        .addComponent(jLabel30))
-                                    .addGroup(infoPanelLayout.createSequentialGroup()
-                                        .addComponent(jLabel29)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(hoursPerWeekInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, infoPanelLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(searchChoiceParent, javax.swing.GroupLayout.PREFERRED_SIZE, 519, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(425, 425, 425))
+            .addGroup(infoPanelLayout.createSequentialGroup()
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel28)
+                    .addComponent(jLabel29)
+                    .addComponent(jLabel30)
+                    .addComponent(jLabel31)
+                    .addComponent(jLabel15)
+                    .addComponent(jLabel16)
+                    .addComponent(jLabel18))
+                .addGap(18, 18, 18)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(deductInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(yearlySalaryInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(weeksPerYearInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(hourlyWageInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(hoursPerWeekInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(72, 72, 72)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel19))
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(missInfoRadioButton)
+                    .addGroup(infoPanelLayout.createSequentialGroup()
+                        .addGap(2, 2, 2)
+                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(femaleInfoRadioButton)
+                            .addComponent(maleInfoRadioButton)
+                            .addComponent(otherInfoRadioButton)
+                            .addComponent(fullTimeInfoRadioButton)
+                            .addComponent(partTimeInfoRadioButton)))
+                    .addComponent(torontoInfoRadioButton)
+                    .addComponent(brampInfoRadioButton))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         infoPanelLayout.setVerticalGroup(
             infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(infoPanelLayout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(fNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jLabel15))
-                                    .addComponent(jSeparator10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(lNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jLabel16))
-                                    .addComponent(jSeparator11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel18)
-                                    .addComponent(deductInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jSeparator12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(infoPanelLayout.createSequentialGroup()
-                                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(brampInfoRadioButton)
-                                    .addComponent(jLabel20))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(missInfoRadioButton)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(torontoInfoRadioButton, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(37, 37, 37)
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel19)
-                            .addComponent(maleInfoRadioButton)))
+                .addContainerGap()
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel15)
+                    .addComponent(fNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel20)
+                    .addComponent(brampInfoRadioButton))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel16)
+                    .addComponent(lNInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(missInfoRadioButton))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(torontoInfoRadioButton, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(deductInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(30, 30, 30)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(maleInfoRadioButton)
                     .addComponent(jLabel28)
-                    .addComponent(hourlyWageInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSeparator14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(jLabel19)
+                    .addComponent(hourlyWageInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel29)
+                    .addComponent(femaleInfoRadioButton)
+                    .addComponent(hoursPerWeekInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel30)
+                    .addComponent(otherInfoRadioButton)
+                    .addComponent(weeksPerYearInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addGap(4, 4, 4)
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel29)
-                            .addComponent(hoursPerWeekInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel30)
-                            .addComponent(weeksPerYearInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSeparator17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addComponent(femaleInfoRadioButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(otherInfoRadioButton)))
-                .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(yearlySalaryInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel31))
-                            .addComponent(jSeparator19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addGap(18, 18, 18)
+                        .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel31)
+                            .addComponent(yearlySalaryInfoField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, infoPanelLayout.createSequentialGroup()
+                        .addGap(0, 10, Short.MAX_VALUE)
+                        .addComponent(fullTimeInfoRadioButton)
+                        .addGap(3, 3, 3)
                         .addComponent(partTimeInfoRadioButton)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(fullTimeInfoRadioButton)))
-                .addGap(18, 18, 18)
+                        .addGap(18, 18, 18)))
                 .addComponent(searchChoiceParent, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(120, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel10.setText("Employee #:");
+        jLabel10.setText("Employee Number:");
 
         employeeSearchField.setBorder(null);
         employeeSearchField.addActionListener(new java.awt.event.ActionListener() {
@@ -738,29 +640,29 @@ public class JFrame extends javax.swing.JFrame {
         searchPanelLayout.setHorizontalGroup(
             searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(searchPanelLayout.createSequentialGroup()
-                .addGap(6, 6, 6)
+                .addGap(100, 100, 100)
                 .addComponent(jLabel10)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(employeeSearchField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jSeparator18, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jSeparator18, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(employeeSearchField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(searchPanelLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, searchPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(infoPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         searchPanelLayout.setVerticalGroup(
             searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(searchPanelLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10)
-                    .addGroup(searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(employeeSearchField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jSeparator18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(19, 19, 19)
+                .addGap(25, 25, 25)
+                .addGroup(searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(searchPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel10)
+                        .addComponent(employeeSearchField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jSeparator18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(11, 11, 11)
                 .addComponent(infoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
         parentPanel.add(searchPanel, "card3");
@@ -823,7 +725,7 @@ public class JFrame extends javax.swing.JFrame {
                     .addComponent(jSeparator6, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(weeksPerYearField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(295, Short.MAX_VALUE))
+                .addContainerGap(319, Short.MAX_VALUE))
         );
         partTimePanelLayout.setVerticalGroup(
             partTimePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -846,7 +748,7 @@ public class JFrame extends javax.swing.JFrame {
                         .addComponent(weeksPerYearField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel12))
                     .addComponent(jSeparator7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 136, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 133, Short.MAX_VALUE)
                 .addComponent(addPTEmployeeButton)
                 .addGap(14, 14, 14))
         );
@@ -886,7 +788,7 @@ public class JFrame extends javax.swing.JFrame {
                 .addGroup(fullTimePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(yearlySalaryField, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(315, Short.MAX_VALUE))
+                .addContainerGap(333, Short.MAX_VALUE))
         );
         fullTimePanelLayout.setVerticalGroup(
             fullTimePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -897,7 +799,7 @@ public class JFrame extends javax.swing.JFrame {
                         .addComponent(yearlySalaryField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel13))
                     .addComponent(jSeparator9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 170, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 163, Short.MAX_VALUE)
                 .addComponent(addFTEmployeeButton)
                 .addGap(14, 14, 14))
         );
@@ -910,14 +812,6 @@ public class JFrame extends javax.swing.JFrame {
         View.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ViewActionPerformed(evt);
-            }
-        });
-
-        jTextField1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jTextField1.setText("Employee Information");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
             }
         });
 
@@ -950,28 +844,31 @@ public class JFrame extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "First Name", "Last Name", "Emp ##", "Type"
+                "First Name", "Last Name", "Empl. #", "Type"
             }
         ));
         jScrollPane4.setViewportView(jTable1);
+
+        title.setFont(new java.awt.Font("Courier New", 0, 24)); // NOI18N
+        title.setText("Employee Information");
 
         javax.swing.GroupLayout viewPanelLayout = new javax.swing.GroupLayout(viewPanel);
         viewPanel.setLayout(viewPanelLayout);
         viewPanelLayout.setHorizontalGroup(
             viewPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, viewPanelLayout.createSequentialGroup()
-                .addContainerGap(79, Short.MAX_VALUE)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 374, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(78, 78, 78))
             .addGroup(viewPanelLayout.createSequentialGroup()
                 .addGroup(viewPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(viewPanelLayout.createSequentialGroup()
-                        .addGap(141, 141, 141)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(viewPanelLayout.createSequentialGroup()
                         .addGap(218, 218, 218)
-                        .addComponent(View)))
+                        .addComponent(View))
+                    .addGroup(viewPanelLayout.createSequentialGroup()
+                        .addGap(121, 121, 121)
+                        .addComponent(title)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, viewPanelLayout.createSequentialGroup()
+                .addGap(0, 79, Short.MAX_VALUE)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 374, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(78, 78, 78))
         );
         viewPanelLayout.setVerticalGroup(
             viewPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -979,10 +876,10 @@ public class JFrame extends javax.swing.JFrame {
                 .addGap(12, 12, 12)
                 .addComponent(View)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(title)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         parentPanel.add(viewPanel, "card6");
@@ -1213,7 +1110,7 @@ public class JFrame extends javax.swing.JFrame {
                         .addComponent(fullTimeRadioButton)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, addPanelLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
                         .addComponent(addContinueButton)
                         .addGap(14, 14, 14))))
         );
@@ -1229,9 +1126,6 @@ public class JFrame extends javax.swing.JFrame {
         jLabel24.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         jLabel24.setText("Hit the Add button to get started");
 
-        jLabel25.setFont(new java.awt.Font("Lucida Grande", 0, 12)); // NOI18N
-        jLabel25.setText("<html>Made with <span style=\"color:red;\">&hearts;</span> by Ani Srikanth and Saharsh Hariharan</html>");
-
         javax.swing.GroupLayout welcomePanelLayout = new javax.swing.GroupLayout(welcomePanel);
         welcomePanel.setLayout(welcomePanelLayout);
         welcomePanelLayout.setHorizontalGroup(
@@ -1239,18 +1133,12 @@ public class JFrame extends javax.swing.JFrame {
             .addGroup(welcomePanelLayout.createSequentialGroup()
                 .addGroup(welcomePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(welcomePanelLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(77, 77, 77)
+                        .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(welcomePanelLayout.createSequentialGroup()
-                        .addGroup(welcomePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(welcomePanelLayout.createSequentialGroup()
-                                .addGap(77, 77, 77)
-                                .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(welcomePanelLayout.createSequentialGroup()
-                                .addGap(120, 120, 120)
-                                .addComponent(jLabel24)))
-                        .addGap(0, 82, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(120, 120, 120)
+                        .addComponent(jLabel24)))
+                .addContainerGap(88, Short.MAX_VALUE))
         );
         welcomePanelLayout.setVerticalGroup(
             welcomePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1259,9 +1147,7 @@ public class JFrame extends javax.swing.JFrame {
                 .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(103, 103, 103)
                 .addComponent(jLabel24)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 164, Short.MAX_VALUE)
-                .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(164, Short.MAX_VALUE))
         );
 
         parentPanel.add(welcomePanel, "card7");
@@ -1272,13 +1158,13 @@ public class JFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(sidePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(0, 0, 0)
                 .addComponent(parentPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 531, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(sidePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(parentPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 410, Short.MAX_VALUE)
+            .addComponent(parentPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 395, Short.MAX_VALUE)
         );
 
         pack();
@@ -1319,27 +1205,7 @@ public class JFrame extends javax.swing.JFrame {
     private void fullTimeRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullTimeRadioButtonActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fullTimeRadioButtonActionPerformed
-    
-    private void addButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseEntered
-        // TODO add your handling code here:
-        setBackground(addButton);
-    }//GEN-LAST:event_addButtonMouseEntered
-    
-    private void searchButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchButtonMouseExited
-        // TODO add your handling code here:
-        resetBackground(searchButton);
-    }//GEN-LAST:event_searchButtonMouseExited
-    
-    private void addButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseExited
-        // TODO add your handling code here:
-        resetBackground(addButton);
-    }//GEN-LAST:event_addButtonMouseExited
-    
-    private void searchButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchButtonMouseEntered
-        // TODO add your handling code here:
-        setBackground(searchButton);
-    }//GEN-LAST:event_searchButtonMouseEntered
-    
+                    
     private void addButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseClicked
         // TODO add your handling code here:
         clear();
@@ -1492,22 +1358,85 @@ public class JFrame extends javax.swing.JFrame {
         
         }
     }//GEN-LAST:event_viewButtonMouseClicked
-    
-    private void viewButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_viewButtonMouseExited
-        // TODO add your handling code here:
-        resetBackground(viewButton);
-    }//GEN-LAST:event_viewButtonMouseExited
-    
-    private void viewButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_viewButtonMouseEntered
-        // TODO add your handling code here:
-        setBackground(viewButton);
-    }//GEN-LAST:event_viewButtonMouseEntered
-    
+            
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
         myHT.writeToFile();
         System.out.println();
     }//GEN-LAST:event_formWindowClosing
                                                                                 
+    private void ViewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewActionPerformed
+        String type = null;
+        DefaultTableModel pte = (DefaultTableModel) jTable1.getModel();
+        pte.getDataVector().removeAllElements();
+        ArrayList<EmployeeInfo> employees = new ArrayList();
+        myHT.displayToTable (employees);
+        int length = employees.size();
+        for (int i = 0; i < length; i++ ) {
+            String fn = employees.get(i).getFirstName();
+            String ln = employees.get(i).getLastName();
+            int empn = employees.get(i).getEmpNumber();
+            if (employees.get(i) instanceof PartTimeEmployee) {
+                type = "Part Time";
+            } else if (employees.get(i) instanceof FullTimeEmployee) {
+                type = "Full Time";
+            }
+            pte.addRow(new Object[]{fn, ln, empn, type});
+        }
+    }//GEN-LAST:event_ViewActionPerformed
+
+    private void employeeSearchFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_employeeSearchFieldActionPerformed
+        // TODO add your handling code here:
+        int toFind = Integer.parseInt(employeeSearchField.getText());
+        EmployeeInfo found = null;
+        found = myHT.search(toFind);
+
+        if (found == null){
+            JOptionPane.showMessageDialog(null, "No Employee Found");
+        } else {
+            fNInfoField.setText(found.getFirstName());
+            lNInfoField.setText(found.getLastName());
+            deductInfoField.setText(Integer.toString((int) found.getDeductRate()));
+
+            if(found instanceof PartTimeEmployee){
+                partTimeInfoRadioButton.setSelected(true);
+
+                hoursPerWeekInfoField.setText(Double.toString(((PartTimeEmployee) found).getHoursPerWeek()));
+                hoursPerWeekInfoField.setEditable(false);
+                hourlyWageInfoField.setText(Double.toString(((PartTimeEmployee) found).getHourlyWage()));
+                hourlyWageInfoField.setEditable(false);
+                weeksPerYearInfoField.setText(Double.toString(((PartTimeEmployee) found).getWeeksPerYear()));
+                weeksPerYearInfoField.setEditable(false);
+                yearlySalaryInfoField.setEnabled(false);
+
+            } else if (found instanceof FullTimeEmployee){
+                fullTimeInfoRadioButton.setSelected(true);
+                yearlySalaryInfoField.setText(Double.toString(((FullTimeEmployee) found).AnnualGrossIncome()));
+
+                weeksPerYearInfoField.setEnabled(false);
+                hourlyWageInfoField.setEnabled(false);
+                hoursPerWeekInfoField.setEnabled(false);
+            }
+
+            if (found.getGender() == Gender.MALE){
+                maleInfoRadioButton.setSelected(true);
+            } else if(found.getGender() == Gender.FEMALE){
+                femaleInfoRadioButton.setSelected(true);
+            } else if(found.getGender() == Gender.OTHER){
+                otherInfoRadioButton.setSelected(true);
+            }
+
+            if (found.getLocation() == Location.BRAMPTON){
+                brampInfoRadioButton.setSelected(true);
+            } else if (found.getLocation() == Location.MISSISSAUGA){
+                missInfoRadioButton.setSelected(true);
+            } else if (found.getLocation() == Location.TORONTO){
+                torontoInfoRadioButton.setSelected(true);
+            }
+
+            infoPanel.setVisible(true);
+        }
+    }//GEN-LAST:event_employeeSearchFieldActionPerformed
+
     private void saveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveButtonActionPerformed
         // TODO add your handling code here:
         myHT.removeEmployee(myHT.search(Integer.parseInt(employeeSearchField.getText())));
@@ -1614,7 +1543,6 @@ public class JFrame extends javax.swing.JFrame {
 
         preEdit.setVisible(true);
         duringEdit.setVisible(false);
-
     }//GEN-LAST:event_cancelButtonActionPerformed
 
     private void removeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_removeButtonActionPerformed
@@ -1628,7 +1556,6 @@ public class JFrame extends javax.swing.JFrame {
         } else if (response == JOptionPane.NO_OPTION || response == JOptionPane.CLOSED_OPTION || response == JOptionPane.CANCEL_OPTION) {
 
         }
-
     }//GEN-LAST:event_removeButtonActionPerformed
 
     private void editButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_editButtonActionPerformed
@@ -1660,8 +1587,23 @@ public class JFrame extends javax.swing.JFrame {
         torontoInfoRadioButton.setEnabled(true);
         partTimeInfoRadioButton.setEnabled(true);
         fullTimeInfoRadioButton.setEnabled(true);
-
     }//GEN-LAST:event_editButtonActionPerformed
+
+    private void yearlySalaryInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yearlySalaryInfoFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_yearlySalaryInfoFieldActionPerformed
+
+    private void weeksPerYearInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weeksPerYearInfoFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weeksPerYearInfoFieldActionPerformed
+
+    private void hoursPerWeekInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hoursPerWeekInfoFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hoursPerWeekInfoFieldActionPerformed
+
+    private void hourlyWageInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hourlyWageInfoFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_hourlyWageInfoFieldActionPerformed
 
     private void fullTimeInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullTimeInfoRadioButtonActionPerformed
         // TODO add your handling code here:
@@ -1681,7 +1623,6 @@ public class JFrame extends javax.swing.JFrame {
         weeksPerYearInfoField.setEnabled(true);
         yearlySalaryInfoField.setText("");
         yearlySalaryInfoField.setEnabled(false);
-
     }//GEN-LAST:event_partTimeInfoRadioButtonActionPerformed
 
     private void torontoInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_torontoInfoRadioButtonActionPerformed
@@ -1714,6 +1655,10 @@ public class JFrame extends javax.swing.JFrame {
         gender = Gender.MALE;
     }//GEN-LAST:event_maleInfoRadioButtonActionPerformed
 
+    private void deductInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deductInfoFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_deductInfoFieldActionPerformed
+
     private void lNInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNInfoFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_lNInfoFieldActionPerformed
@@ -1721,105 +1666,6 @@ public class JFrame extends javax.swing.JFrame {
     private void fNInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNInfoFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fNInfoFieldActionPerformed
-
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void ViewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ViewActionPerformed
-        String type = null;
-        DefaultTableModel pte = (DefaultTableModel) jTable1.getModel();
-        pte.getDataVector().removeAllElements();
-        ArrayList<EmployeeInfo> employees = new ArrayList();
-        myHT.displayToTable (employees);
-        int length = employees.size();
-        for (int i = 0; i < length; i++ ) {
-            String fn = employees.get(i).getFirstName();
-            String ln = employees.get(i).getLastName();
-            int empn = employees.get(i).getEmpNumber();
-            if (employees.get(i) instanceof PartTimeEmployee) {
-                type = "Part Time";
-            } else if (employees.get(i) instanceof FullTimeEmployee) {
-                type = "Full Time";
-            }
-            pte.addRow(new Object[]{fn, ln, empn, type});
-        }
-    }//GEN-LAST:event_ViewActionPerformed
-
-    private void employeeSearchFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_employeeSearchFieldActionPerformed
-        // TODO add your handling code here:
-         int toFind = Integer.parseInt(employeeSearchField.getText());
-        EmployeeInfo found = null;
-        found = myHT.search(toFind);
-        
-        if (found == null){
-            JOptionPane.showMessageDialog(null, "No Employee Found");
-        } else {
-            fNInfoField.setText(found.getFirstName());
-            lNInfoField.setText(found.getLastName());
-            deductInfoField.setText(Integer.toString((int) found.getDeductRate()));
-            
-            if(found instanceof PartTimeEmployee){
-                partTimeInfoRadioButton.setSelected(true);
-                
-                hoursPerWeekInfoField.setText(Double.toString(((PartTimeEmployee) found).getHoursPerWeek()));
-                hoursPerWeekInfoField.setEditable(false);
-                hourlyWageInfoField.setText(Double.toString(((PartTimeEmployee) found).getHourlyWage()));
-                hourlyWageInfoField.setEditable(false);
-                weeksPerYearInfoField.setText(Double.toString(((PartTimeEmployee) found).getWeeksPerYear()));
-                weeksPerYearInfoField.setEditable(false);
-                yearlySalaryInfoField.setEnabled(false);
-                
-            } else if (found instanceof FullTimeEmployee){
-                fullTimeInfoRadioButton.setSelected(true);
-                yearlySalaryInfoField.setText(Double.toString(((FullTimeEmployee) found).AnnualGrossIncome()));
-                
-                weeksPerYearInfoField.setEnabled(false);
-                hourlyWageInfoField.setEnabled(false);
-                hoursPerWeekInfoField.setEnabled(false);
-            }
-            
-            if (found.getGender() == Gender.MALE){
-                maleInfoRadioButton.setSelected(true);
-            } else if(found.getGender() == Gender.FEMALE){
-                femaleInfoRadioButton.setSelected(true);
-            } else if(found.getGender() == Gender.OTHER){
-                otherInfoRadioButton.setSelected(true);
-            }
-            
-            if (found.getLocation() == Location.BRAMPTON){
-                brampInfoRadioButton.setSelected(true);
-            } else if (found.getLocation() == Location.MISSISSAUGA){
-                missInfoRadioButton.setSelected(true);
-            } else if (found.getLocation() == Location.TORONTO){
-                torontoInfoRadioButton.setSelected(true);
-            }
-            
-            
-            
-            infoPanel.setVisible(true);
-        }
-    }//GEN-LAST:event_employeeSearchFieldActionPerformed
-
-    private void deductInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deductInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_deductInfoFieldActionPerformed
-
-    private void hourlyWageInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hourlyWageInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_hourlyWageInfoFieldActionPerformed
-
-    private void hoursPerWeekInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hoursPerWeekInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_hoursPerWeekInfoFieldActionPerformed
-
-    private void weeksPerYearInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weeksPerYearInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_weeksPerYearInfoFieldActionPerformed
-
-    private void yearlySalaryInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yearlySalaryInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_yearlySalaryInfoFieldActionPerformed
     
     private void setBackground(JPanel panel){
         panel.setBackground(new Color(148, 204, 248));
@@ -1919,9 +1765,6 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
@@ -1940,14 +1783,7 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSeparator jSeparator10;
-    private javax.swing.JSeparator jSeparator11;
-    private javax.swing.JSeparator jSeparator12;
-    private javax.swing.JSeparator jSeparator14;
-    private javax.swing.JSeparator jSeparator15;
-    private javax.swing.JSeparator jSeparator17;
     private javax.swing.JSeparator jSeparator18;
-    private javax.swing.JSeparator jSeparator19;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
@@ -1956,7 +1792,6 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField lNField;
     private javax.swing.JTextField lNInfoField;
     private javax.swing.ButtonGroup locationGroup;
@@ -1977,6 +1812,7 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JPanel searchChoiceParent;
     private javax.swing.JPanel searchPanel;
     private javax.swing.JPanel sidePanel;
+    private javax.swing.JLabel title;
     private javax.swing.JRadioButton torontoInfoRadioButton;
     private javax.swing.JRadioButton torontoRadioButton;
     private javax.swing.JPanel viewButton;

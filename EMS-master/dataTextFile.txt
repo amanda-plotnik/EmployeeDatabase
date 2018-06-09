@@ -1,10 +1,8 @@
-Part Time Employee
+Full Time Employee
 1
-Ani
-Srikanth
-0.0
+Rob
+Dutton
+0.05
 MALE
-MISSISSAUGA
-100.0
-100.0
-34.0
+TORONTO
+50000.0
