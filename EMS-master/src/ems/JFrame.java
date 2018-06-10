@@ -18,26 +18,20 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Ani
- */
+
 public class JFrame extends javax.swing.JFrame {
     
-    String fN, lN, currentPage;
+	//enumerators
     Gender gender;
-    private MyHashTable myHT;
-    int empNum;
     Location location;
+    //other variables
+    private MyHashTable myHT;
+    int empNum, yearlySalary;
+    String fN, lN, currentPage;
     double deductRate, hourlyWage, hoursPerWeek, weeksPerYear;
+
     
-    int yearlySalary;//
-    //ihategithub<3
-    
-    
-    /**
-     * Creates new form JFrame
-     */
+    // Creates new form 'JFrame'
     public JFrame() {
         initComponents();
         myHT = new MyHashTable(2);

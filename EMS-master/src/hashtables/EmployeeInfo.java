@@ -19,6 +19,7 @@ public class EmployeeInfo {
 		this.deductRate = deductRate;
 	}
 
+	//Getter and Setter Methods
 	public String getFirstName() {
 		return firstName;
 	}
