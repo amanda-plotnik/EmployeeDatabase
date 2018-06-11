@@ -1,10 +1,228 @@
 Part Time Employee
-1
-Rob
-Dutton
-0.0
+147428
+Ahmad
+Almawi
+0.25
+MALE
+TORONTO
+14.0
+24.0
+34.0
+Full Time Employee
+118536
+Amanda
+Plotnik
+0.1
+FEMALE
+MISSISSAUGA
+99999.0
+Part Time Employee
+326864
+Daniel
+Wang
+0.06
+MALE
+TORONTO
+45.0
+65.0
+24.0
+Full Time Employee
+987654
+Eric
+Zhai
+0.66
+MALE
+BRAMPTON
+99999.0
+Part Time Employee
+876578
+Faaris
+Ali
+0.66
+MALE
+BRAMPTON
+45.0
+65.0
+24.0
+Full Time Employee
+876578
+Gaurav
+Padhye
+0.13
+MALE
+BRAMPTON
+99999.0
+Part Time Employee
+254328
+Iman
+Ali
+0.13
+MALE
+BRAMPTON
+45.0
+65.0
+24.0
+Part Time Employee
+654786
+Kevin
+Ding
+0.13
+MALE
+BRAMPTON
+45.0
+65.0
+24.0
+Full Time Employee
+657988
+Kush
+Bhagat
+0.13
+MALE
+BRAMPTON
+99999.0
+Part Time Employee
+325670
+Longman
+Xu
+0.13
+MALE
+BRAMPTON
+45.0
+65.0
+24.0
+Part Time Employee
+990066
+Min Qi
+Zhang
+0.13
 FEMALE
 BRAMPTON
-50.0
-5.0
-10.0
+45.0
+65.0
+24.0
+Part Time Employee
+346788
+Rich
+Ren
+0.13
+MALE
+BRAMPTON
+45.0
+65.0
+24.0
+Part Time Employee
+678954
+Tommy
+Huang
+0.13
+MALE
+MISSISSAUGA
+45.0
+65.0
+24.0
+Full Time Employee
+137900
+Yi Nuo
+Wang
+0.13
+MALE
+MISSISSAUGA
+99999.0
+Full Time Employee
+287590
+Yifei
+Zhang
+0.13
+MALE
+MISSISSAUGA
+99999.0
+Full Time Employee
+972589
+Aaron
+Dam
+0.28
+MALE
+BRAMPTON
+100000.0
+Part Time Employee
+274269
+Ajit
+Rakha
+0.16
+MALE
+TORONTO
+16.0
+56.0
+24.0
+Part Time Employee
+754543
+Daniel
+Yang
+0.66
+MALE
+BRAMPTON
+45.0
+65.0
+24.0
+Full Time Employee
+436709
+Jerry
+Yang
+0.13
+MALE
+BRAMPTON
+99999.0
+Full Time Employee
+231007
+Kevin
+Zhang
+0.13
+MALE
+BRAMPTON
+99999.0
+Part Time Employee
+136895
+Shawn
+Zhang
+0.13
+MALE
+MISSISSAUGA
+45.0
+65.0
+24.0
+Part Time Employee
+117633
+Shoaib
+Zazi
+0.13
+MALE
+MISSISSAUGA
+45.0
+65.0
+24.0
+Full Time Employee
+457909
+Terrence
+Williams
+0.13
+MALE
+MISSISSAUGA
+99999.0
+Part Time Employee
+236009
+Tom
+Yang
+0.13
+MALE
+MISSISSAUGA
+45.0
+65.0
+24.0
+Full Time Employee
+668431
+Zelong
+Chen
+0.13
+MALE
+MISSISSAUGA
+99999.0
